@@ -40,12 +40,12 @@ app.use((err, req, res, next) => {
     if (err.status === 404) {
         res.status = 404;
         // render not found template, pass in err
-        res.send(`<h1>404 error: ${err.message}</h1>`)
+        res.render('page-not-found', {err})
     } else {
         err.message = err.message || "Oh no! Something went wrong.";
         res.status = err.status || 500;
         // render global error template, pass in err
-        res.send(`<h1>${err.status} - ${err.message}</h1>`)
+        res.render('error', {err})
     }
 })
 

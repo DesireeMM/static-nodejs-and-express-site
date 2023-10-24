@@ -1,6 +1,6 @@
 // requiring files for import
 const express = require('express');
-const data = require('data.json');
+const data = require('./data.json');
 
 // setting up app and static route
 const app = express();
@@ -11,17 +11,37 @@ app.set('view engine', 'pug');
 
 // create basic routes
 app.get('/', (req, res, next) => {
-    // render the "Home" page with locals set to data.projects
+    res.render('index', {projects: data.projects})
 });
 
 app.get('/about', (req, res, next) => {
-    // render the "About" page
+    res.render('about');
 });
 
 app.get('/projects/:id', (req, res, next) => {
     // render custom project template based on id
     // be sure to add locals with the data to be passed
 });
+
+// error handling
+app.use((req, res, next) => {
+    const err = new Error('Page not found.');
+    err.status = 404;
+    next(err)
+});
+
+app.use((err, req, res, next) => {
+    if (err.status === 404) {
+        res.status = 404;
+        // render not found template, pass in err
+        res.send(`<h1>404 error: ${err.message}</h1>`)
+    } else {
+        err.message = err.message || "Oh no! Something went wrong.";
+        res.status = err.status || 500;
+        // render global error template, pass in err
+        res.send(`<h1>${err.status} - ${err.message}</h1>`)
+    }
+})
 
 // start server on port 3000
 app.listen(3000, () => {

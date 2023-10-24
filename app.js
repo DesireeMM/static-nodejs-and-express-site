@@ -19,8 +19,14 @@ app.get('/about', (req, res, next) => {
 });
 
 app.get('/projects/:id', (req, res, next) => {
-    // render custom project template based on id
-    // be sure to add locals with the data to be passed
+    const {id} = req.params;
+    const project = data.projects[id];
+    if (!project) {
+        const err = new Error("Sorry, that project doesn't exist yet.");
+        err.status = 404;
+        return next(err);
+    }
+    res.render('project', {project});
 });
 
 // error handling

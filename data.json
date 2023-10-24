@@ -1,0 +1,22 @@
+{ 
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "placeholder",
+            "description": "placeholder",
+            "technologies": ["placeholder"],
+            "live_link": "placeholder",
+            "github_link": "placeholder",
+            "image_urls": ["placeholder"]
+        },
+        {
+            "id": 1,
+            "project_name": "placeholder",
+            "description": "placeholder",
+            "technologies": ["placeholder"],
+            "live_link": "placeholder",
+            "github_link": "placeholder",
+            "image_urls": ["placeholder"]
+        }
+    ]
+}

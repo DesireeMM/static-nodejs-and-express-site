@@ -2,20 +2,47 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "placeholder",
-            "description": "placeholder",
-            "technologies": ["placeholder"],
-            "live_link": "placeholder",
-            "github_link": "placeholder",
+            "project_name": "Random Quote Generator",
+            "description": "Generates a random quote with background color changes.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://desireemm.github.io/random-quote-generator/",
+            "github_link": "https://github.com/DesireeMM/random-quote-generator",
             "image_urls": ["placeholder"]
         },
         {
             "id": 1,
-            "project_name": "placeholder",
-            "description": "placeholder",
-            "technologies": ["placeholder"],
-            "live_link": "placeholder",
-            "github_link": "placeholder",
+            "project_name": "Data Pagination and Filtering",
+            "description": "Displays student directory with search feature.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://desireemm.github.io/data-pagination-and-filtering/",
+            "github_link": "https://github.com/DesireeMM/data-pagination-and-filtering",
+            "image_urls": ["placeholder"]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "Demonstrates form validation.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://desireemm.github.io/interactive-form/",
+            "github_link": "https://github.com/DesireeMM/interactive-form",
+            "image_urls": ["placeholder"]
+        },
+        {
+            "id": 3,
+            "project_name": "Phrase Hunter",
+            "description": "Uses OOP principles to create a hangman-style game.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://desireemm.github.io/oop-game-show-app/",
+            "github_link": "https://github.com/DesireeMM/oop-game-show-app",
+            "image_urls": ["placeholder"]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "Displays a directory of randomly generated employees from an API call.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://github.com/DesireeMM/public-api-requests/deployments/github-pages",
+            "github_link": "https://github.com/DesireeMM/public-api-requests",
             "image_urls": ["placeholder"]
         }
     ]

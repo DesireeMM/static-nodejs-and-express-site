@@ -31,7 +31,7 @@ app.get('/projects/:id', (req, res, next) => {
 
 // error handling
 app.use((req, res, next) => {
-    const err = new Error('Page not found.');
+    const err = new Error("Uh oh, I can't find what you're looking for.");
     err.status = 404;
     next(err)
 });
@@ -39,12 +39,10 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
     if (err.status === 404) {
         res.status = 404;
-        // render not found template, pass in err
         res.render('page-not-found', {err})
     } else {
         err.message = err.message || "Oh no! Something went wrong.";
         res.status = err.status || 500;
-        // render global error template, pass in err
         res.render('error', {err})
     }
 })

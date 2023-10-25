@@ -7,7 +7,12 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://desireemm.github.io/random-quote-generator/",
             "github_link": "https://github.com/DesireeMM/random-quote-generator",
-            "image_urls": ["placeholder"]
+            "image_urls": [
+                {"url": "/static/images/random_quote_generator0.jpeg", "alt": "Project thumbnail: Show another quote"},
+                {"url": "/static/images/random_quote_generator1.jpeg", "alt": "Quote: All our dreams can come true if we have the courage to pursue them. By: Walt Disney"},
+                {"url": "/static/images/random_quote_generator2.jpeg", "alt": "Quote: You must be the change you wish to see in the world. By: Mahatma Gandhi"},
+                {"url": "/static/images/random_quote_generator3.jpeg", "alt": "Quote: It always seems impossible until it's done. By: Nelson Mandela"}
+            ]
         },
         {
             "id": 1,
@@ -16,7 +21,12 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://desireemm.github.io/data-pagination-and-filtering/",
             "github_link": "https://github.com/DesireeMM/data-pagination-and-filtering",
-            "image_urls": ["placeholder"]
+            "image_urls": [
+                {"url": "/static/images/data_pagination0.jpeg", "alt": "Project thumbnail shows student profile for Celina Griffin, celina.griffin@example.com, joined 7-2-2006"},
+                {"url": "/static/images/data_pagination1.jpeg", "alt": "Grid of student profiles that includes the heading Students and a search bar."},
+                {"url": "/static/images/data_pagination2.jpeg", "alt": "Grid of student profiles that match the term 'ce' in the search bar."},
+                {"url": "/static/images/data_pagination3.jpeg", "alt": "Project page buttons."}
+            ]
         },
         {
             "id": 2,
@@ -25,7 +35,13 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://desireemm.github.io/interactive-form/",
             "github_link": "https://github.com/DesireeMM/interactive-form",
-            "image_urls": ["placeholder"]
+            "image_urls": [
+                {"url": "/static/images/interactive_form0.jpeg", "alt": "Project thumbnail that says 'Register for Full Stack Conference'"},
+                {"url": "/static/images/interactive_form1.jpeg", "alt": "Basic Info form section with invalid Name entry"},
+                {"url": "/static/images/interactive_form2.jpeg", "alt": "T-Shirt Info form section before design selection showing disabled color select dropdown"},
+                {"url": "/static/images/interactive_form3.jpeg", "alt": "T-Shirt Info form section after design selection showing selective color select menu"},
+                {"url": "/static/images/interactive_form4.jpeg", "alt": "Register for Activities form section with conflicting options disabled"}
+            ]
         },
         {
             "id": 3,
@@ -34,16 +50,25 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://desireemm.github.io/oop-game-show-app/",
             "github_link": "https://github.com/DesireeMM/oop-game-show-app",
-            "image_urls": ["placeholder"]
+            "image_urls": [
+                {"url": "/static/images/phrase_hunter0.jpeg", "alt": "Project thumbnail shows game title screen 'Phrase Hunter' with a start button"},
+                {"url": "/static/images/phrase_hunter1.jpeg", "alt": "Gameplay shown with no guessed letters"},
+                {"url": "/static/images/phrase_hunter2.jpeg", "alt": "Gameplay shown with one correctly guessed letter and one incorrectly guessed letter"}
+            ]
         },
         {
             "id": 4,
             "project_name": "Public API Requests",
             "description": "Displays a directory of randomly generated employees from an API call.",
             "technologies": ["JavaScript", "HTML", "CSS"],
-            "live_link": "https://github.com/DesireeMM/public-api-requests/deployments/github-pages",
+            "live_link": "https://desireemm.github.io/public-api-requests/",
             "github_link": "https://github.com/DesireeMM/public-api-requests",
-            "image_urls": ["placeholder"]
+            "image_urls": [
+                {"url": "/static/images/employee_directory0.jpeg", "alt": "Project thumbnail shows employee card for Allison Morrison, allison.morrison@example.com, Colorado Springs, Wisconson"},
+                {"url": "/static/images/employee_directory1.jpeg", "alt": "Shows a grid of employee cards titled 'Awesome Startup Employee Directory' with a search bar"},
+                {"url": "/static/images/employee_directory2.jpeg", "alt": "Shows employee modal pop up card for Allison Morrison"},
+                {"url": "/static/images/employee_directory3.jpeg", "alt": "Shows the two results for the search term 'mo'"}
+            ]
         }
     ]
 }

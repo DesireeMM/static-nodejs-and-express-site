@@ -29,6 +29,9 @@ app.get('/projects/:id', (req, res, next) => {
     res.render('project', {project});
 });
 
+// stop favicon triggering error handler
+app.get("/favicon.ico", (req, res) => res.status(204).end());
+
 // error handling
 app.use((req, res, next) => {
     const err = new Error("Uh oh, I can't find what you're looking for.");

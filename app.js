@@ -39,10 +39,12 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
     if (err.status === 404) {
         res.status = 404;
+        console.log(err.message);
         res.render('page-not-found', {err})
     } else {
         err.message = err.message || "Oh no! Something went wrong.";
         res.status = err.status || 500;
+        console.log(err.message);
         res.render('error', {err})
     }
 })

@@ -16,22 +16,22 @@ This project involved creating an Express based portfolio site that includes our
 #### <a name="technologiesused"></a>Technologies Used
 - CSS (project file provided by Treehouse)
   - minimal changes made to add personalization
+- HTML
 - JavaScript
 - Express
 - Pug
 - JSON
 
 #### <a name="addedfeatures"></a>Added Features
-data.json
-- Created a data.json file to hold project-related data
-package.json
-- Modified it so that the "npm start" command launches the program
-app.js
-- Used Express to set up a server
-- Sent static assets to the client
-- Created routes for my root, about, and project pages
-- Added 404 and global error handling
-
+- data.json
+  - Created a data.json file to hold project-related data
+- package.json
+  - Modified it so that the "npm start" command launches the program
+- app.js
+  - Used Express to set up a server
+  - Sent static assets to the client
+  - Created routes for my root, about, and project pages
+  - Added 404 and global error handling
 
 #### <a name="styling"></a>CSS Styling
 To add some personalization to the project, I made some changes to the CSS stylesheet provided.
